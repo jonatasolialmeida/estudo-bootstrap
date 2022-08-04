@@ -1,21 +1,20 @@
 body {
-    padding-top: 76.2px;    
+  padding-top: 76.2px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .box-shadow {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
-                0 2px 8px 0 rgba(0,0,0,.05);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 8px 0 rgba(0, 0, 0, 0.05);
 }
 
 #home-quote {
-    background: url('../img/bg-quote.jpg') center center;
-    background-size: cover;
+  background: url("../img/bg-quote.jpg") center center;
+  background-size: cover;
 }
-        /* 
+/* 
             no min-width, tudo o que estiver acima de 768px
             receberá a estilização,e o que estiver abaixo de 768px
             não receberá a estilização
@@ -23,19 +22,19 @@ a {
             no max-width será o contrário.
         */
 @media (max-width: 767px) {
-    #home-quote .display-4 {
-        font-size: 2.5rem;
-    }
-    body {
-        padding-top: 0;
-    }
-    .fixed-top {
-        position: relative;
-    }
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+    padding-top: 0;
+  }
+  .fixed-top {
+    position: relative;
+  }
 }
 
 .line {
-    height: 1px;
-    border-bottom: 2px solid #cccccc;
-    margin: 5px 0;
+  height: 1px;
+  border-bottom: 2px solid #cccccc;
+  margin: 5px 0;
 }
