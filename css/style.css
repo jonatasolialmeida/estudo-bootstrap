@@ -38,3 +38,10 @@ a {
   border-bottom: 2px solid #cccccc;
   margin: 5px 0;
 }
+
+.line-2 li + li{
+  border-top: 2px solid #cccccc;
+}
+.line-2 li {
+  padding: 1rem;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caravan - Local</title>
+    <title>Caravan - Inscrição</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -93,7 +93,7 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle ms-md-2 active"
+              class="nav-link dropdown-toggle ms-md-2"
               href="#"
               id="navbarDropdownMenuLink"
               role="button"
@@ -109,10 +109,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link ms-md-2"
-              aria-current="page"
-              href="planos.html"
+            <a class="nav-link ms-md-2" aria-current="page" href="planos.html"
               >Planos</a
             >
           </li>
@@ -148,116 +145,108 @@
 
     <section class="container">
       <div class="my-5 text-center">
-        <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
-        <h1 class="display-4 text-primary fw-semibold">Descuba Dublin</h1>
+        <span class="h6 d-block">PROGRAME A VIAGEM DO SEU SONHO</span>
+        <h1 class="display-4 text-primary fw-semibold">Inscreva-se</h1>
       </div>
       <div class="row">
-        <div class="col-md">
-          <img class="img-fluid mb-4" src="img/local/foto-1.jpg" alt="foto 1" />
-          <img class="img-fluid mb-4" src="img/local/foto-2.jpg" alt="foto 2" />
-          <img class="img-fluid mb-4" src="img/local/foto-3.jpg" alt="foto 3" />
-        </div>
-        <div class="col-md">
-          <img class="img-fluid mb-4" src="img/local/foto-4.jpg" alt="foto 4" />
-          <div class="py-2">
-            <img
-              class="img-fluid mb-4"
-              src="img/local/foto-5.jpg"
-              alt="foto 5"
-            />
+        <div class="col-6">
+          <div class="row">
+            <div class="col">
+              <label for="clienteNome" class="form-label">Nome</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Nome Completo"
+                aria-label="Nome completo"
+                id="clienteNome"
+              />
+            </div>
+            <div class="col">
+              <label for="clienteCpf" class="form-label">CPF</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="xxx.xxx.xxx-xx"
+                aria-label="cpf"
+                id="clienteCpf"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="clienteEmail" class="form-label">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+                id="clienteEmail"
+              />
+            </div>
+            <div class="col">
+              <label for="clienteSenha" class="form-label">Senha</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Senha de acesso"
+                aria-label="senha"
+                id="clienteSenha"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="clienteEndereço" class="form-label">Endereço</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Número, nome da rua e bairro"
+                aria-label="Endereço"
+                id="clienteEndereço"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="clienteEmail" class="form-label">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+                id="clienteEmail"
+              />
+            </div>
+            <div class="col">
+              <label for="clienteSenha" class="form-label">Senha</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Senha de acesso"
+                aria-label="senha"
+                id="clienteSenha"
+              />
+            </div>
+            <div class="col">
+              <label for="clienteCep" class="form-label">CEP</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="xxxxx-xxx"
+                aria-label="CEP"
+                id="clienteCep"
+              />
+            </div>
           </div>
         </div>
-        <div class="col-md">
-          <img class="img-fluid mb-4" src="img/local/foto-6.jpg" alt="foto 6" />
-          <div class="py-2">
-            <img
-              class="img-fluid mb-4"
-              src="img/local/foto-7.jpg"
-              alt="foto 7"
-            />
-          </div>
-        </div>
+        <div class="col-5"></div>
       </div>
     </section>
 
-    <section class="conainer">
-      <div class="my-5 text-center">
-        <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
-        <h2 class="display-4 text-primary fw-semibold">PRÓXIMOS EVENTOS</h2>
-      </div>
-
-      <div class="container">
-        <div class="table-responsive-md">
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">Data</th>
-                <th scope="col">Evento</th>
-                <th scope="col">Local</th>
-                <th scope="col">Ticket</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">23/10</th>
-                <td>Julien Baker</td>
-                <td>The Academy</td>
-                <td>
-                  <a href="#" class="btn btn-outline-secondary btn-sm"
-                    >Comprar Ticket</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">25/10</th>
-                <td>Julien Baker</td>
-                <td>The Academy</td>
-                <td>
-                  <a href="#" class="btn btn-outline-secondary btn-sm"
-                    >Comprar Ticket</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">27/10</th>
-                <td>Julien Baker</td>
-                <td>The Academy</td>
-                <td>
-                  <a href="#" class="btn btn-outline-secondary btn-sm"
-                    >Comprar Ticket</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">28/10</th>
-                <td>Julien Baker</td>
-                <td>The Academy</td>
-                <td>
-                  <a href="#" class="btn btn-outline-secondary btn-sm"
-                    >Comprar Ticket</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">31/10</th>
-                <td>Julien Baker</td>
-                <td>The Academy</td>
-                <td>
-                  <a href="#" class="btn btn-outline-secondary btn-sm"
-                    >Comprar Ticket</a
-                  >
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <footer class="bg-dark text-white mt-5">
-      <div class="container p-0">
+    <footer class="bg-dark text-white">
+      <div class="container py-4">
         <div class="row">
-          <div class="col-md-3 col-6  pt-3">
+          <div class="col-md-3 col-6">
             <h4 class="h6">PÁGINAS</h4>
             <ul class="list-unstyled">
               <li><a href="planos.html">Planos</a></li>
@@ -265,7 +254,7 @@
               <li><a href="inscricao.html">Inscreva-se</a></li>
             </ul>
           </div>
-          <div class="col-md-3 col-6 pt-3">
+          <div class="col-md-3 col-6">
             <h4 class="h6">LOCAIS</h4>
             <ul class="list-unstyled">
               <li><a href="local.html">California</a></li>
@@ -273,7 +262,7 @@
               <li><a href="local.html">Dublin</a></li>
             </ul>
           </div>
-          <div class="col-md-4 pt-3">
+          <div class="col-md-4">
             <h4 class="h6">DADOS DE CONTATO</h4>
             <ul class="list-unstyled text-secondary">
               <li>caravan@caravan.com.br</li>
@@ -281,7 +270,7 @@
               <li>De Seg. à Sex. das 8h às 18h</li>
             </ul>
           </div>
-          <div class="col-md-2 pt-3">
+          <div class="col-md-2">
             <h4 class="h6" style="min-width: 120px">REDES SOCIAIS</h4>
             <ul class="list-unstyled">
               <!-- coloquei um padding-botton no <li> -->
@@ -302,7 +291,7 @@
                   >Twitter</a
                 >
               </li>
-              <li class="">
+              <li class="pb-2">
                 <a
                   class="btn btn-outline-secondary btn-sm"
                   href="#"
